@@ -115,7 +115,7 @@ def dump_files(file_names, anathomy,
    sql_create = create_query.format(
         table=table_name, 
         fields=", ".join(['{0} {1}'.format(name, type) for name, type in anathomy[table_name].items()]))
-   print('Creating table {0}'.format(table_name))
+   print('Now creating table {0}'.format(table_name))
 
    try:
     logging.info(sql_create)
