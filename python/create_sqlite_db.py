@@ -144,3 +144,4 @@ def dump_files(file_names, anathomy,
 
 if __name__ == '__main__':
  dump_files(ANATHOMY.keys(), ANATHOMY)
+ print("Hello World!")
