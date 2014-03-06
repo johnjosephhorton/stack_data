@@ -80,21 +80,21 @@ ANATHOMY = {
 }
 
 
-ANATHOMY = { 'Users': {
-  'Id':'INTEGER',
-  'Reputation':'INTEGER',
-  'CreationDate':'DATETIME',
-  'DisplayName':'TEXT',
-  'LastAccessDate':'DATETIME',
-  'WebsiteUrl':'TEXT',
-  'Location':'TEXT',
-  'Age':'INTEGER',
-  'AboutMe':'TEXT',
-  'Views':'INTEGER',
-  'UpVotes':'INTEGER',
-  'DownVotes':'INTEGER',
-  'EmailHash':'TEXT'
-  }}
+# ANATHOMY = { 'Users': {
+#   'Id':'INTEGER',
+#   'Reputation':'INTEGER',
+#   'CreationDate':'DATETIME',
+#   'DisplayName':'TEXT',
+#   'LastAccessDate':'DATETIME',
+#   'WebsiteUrl':'TEXT',
+#   'Location':'TEXT',
+#   'Age':'INTEGER',
+#   'AboutMe':'TEXT',
+#   'Views':'INTEGER',
+#   'UpVotes':'INTEGER',
+#   'DownVotes':'INTEGER',
+#   'EmailHash':'TEXT'
+#   }}
 
 
 def dump_files(file_names, anathomy, 
