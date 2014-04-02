@@ -1,0 +1,29 @@
+- combines the votes table and the posts table
+
+select a.*,
+b.*
+from votes a, posts b
+where a.id=b.id
+and a.id <=10
+
+- returns the frequency count of the names from the badges table
+
+select name,
+count(*) as counts
+from badges
+group by name
+order by count(*) desc
+
+- returns the post with the most views
+
+select distinct a.*
+from posts a
+where a.viewcount=
+(select max(b.viewcount)
+from posts b)
+
+- returns all comments created on September 23, 2013
+
+select *
+from comments
+where date(creationdate)='2013-09-24'
